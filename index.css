@@ -879,5 +879,37 @@
       text-align: center;
       margin-bottom: var(--dl-space-space-oneandhalfunits);
     }
+    .home-btn-group {
+      position: fixed;
+      bottom: 20px; /* Adjust this value as needed */
+      right: 20px; /* Adjust this value as needed */
+      z-index: 1000; /* Ensure it appears above other elements */
+    }
+    
+    .fauna-bot {
+      display: flex;
+    
+      overflow: auto;
+      align-items: right;
+      justify-content: right;
+      padding: 10px 20px; /* Adjust padding as needed */
+      background-color: #0e66c4; /* Adjust button background color as needed */
+      color: white; /* Button text color */
+      border: none; /* Remove default border */
+      border-radius: 25px; /* Make the button rounded */
+      cursor: pointer; /* Change cursor to pointer on hover */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better visibility */
+    }
+    
+    .fauna-bot img.button-logo {
+      height: 4px;
+      width: 4px; /* Adjust logo height as needed */
+      margin-right: 10px; /* Space between logo and text */
+    }
+    
+    .fauna-bot:hover {
+      background-color: #0056b3; /* Change button background color on hover */
+    }
+    
   }
   
